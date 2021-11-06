@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap" rel="stylesheet">
+    <title>Tic-Tac-Toe</title>
+</head>
+
+<body style="background-color: rgb(12, 5, 24);">
+    <section class="section1">
+        
+        <div class = heading>
+            <h1> Tic-tac-toe </h1>
+        </div>
+
+        <div id="display" style="color: white; padding-bottom: 10px;">
+            (Click on Play Button to play the game)
+        </div>
+
+        <div class="player-display">
+            <div> Turn:</div>
+            <div id="turn-disp" style="color: red;"></div>
+        </div>
+        
+        <div class="container">
+            <div class="box"> </div>
+            <div class="box"> </div>
+            <div class="box"> </div>
+            <div class="box"> </div>
+            <div class="box"> </div>
+            <div class="box"> </div>
+            <div class="box"> </div>
+            <div class="box"> </div>
+            <div class="box"> </div>
+        </div> 
+        
+        <div class="rolesX_Y">
+            <div> Player1 :</div>
+            <div id="Player1-role" style="color: red;"></div>
+            <div> Player2 :</div>
+            <div id="Player2-role" style="color: red;"></div>
+        </div>
+
+        <div class = buttons>
+            <button type="button" id="play">Play</button>
+            <button type="button" id="reset">Reset</button>
+        </div>
+    </section>
+</body>
+<script src="tictactoe.js"></script>
+</html>
